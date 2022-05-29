@@ -3,13 +3,16 @@ import mysql.connector
 from telebot import types
 import test
 import datetime
+import psycopg2
 TOKEN = '5295641600:AAHs_xz0K2rg2m1CJGaB2IxxzSzcBk4-bak' # bot token from @BotFather
+db_URL = "postgres://bhzgwwqgpylfxi:c2efed45bfd5c6c63e95d92f829a1735302ab1c4315da27c0318d1a662b542e5@ec2-3-248-121-12.eu-west-1.compute.amazonaws.com:5432/d7qt6q789nm9qq"
 bot = telebot.TeleBot(TOKEN)
 
 db = mysql.connector.connect(
+    db_URL, sslmode='require',
     user="root",
     password="",
-    database="Films"
+    database="d7qt6q789nm9qq"
 )
 
 cursor = db.cursor()
