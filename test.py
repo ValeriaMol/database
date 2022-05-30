@@ -9,7 +9,7 @@ def test(bot):
 #катастрофы - Титаник     
             if call.message:
                 if call.data == '1.1':
-                    img = open('static/titanic.jpg', 'rb')
+                    img = open('titanic.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1997\n*Страна* - США, Мексика, Австралия \n*Жанр* - мелодрама, история, триллер, драма\n*Слоган* - «Ничто на Земле не сможет разлучить их»\n*Режиссер* - Джеймс Кэмерон\n*Сценарий* - Джеймс Кэмерон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -23,7 +23,7 @@ def test(bot):
 #катастрофы - Выжить  
             if call.message:
                 if call.data == '1.2':
-                    img = open('static/alive.jpg', 'rb')
+                    img = open('alive.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1992\n*Страна* - США, Канада \n*Жанр* - триллер, драма, приключения, история\n*Слоган* - «The triumph of the human spirit»\n*Режиссер* - Фрэнк Маршалл\n*Сценарий* - Джон Патрик Шэнли, Пирс Пол Рид", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -36,7 +36,7 @@ def test(bot):
 #катастрофы - Смерч 
             if call.message:
                 if call.data == '1.3':
-                    img = open('static/smert.jpg', 'rb')
+                    img = open('smert.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1996\n*Страна* - США\n*Жанр* - боевик, триллер, приключения\n*Слоган* - «Темная сторона природы»\n*Режиссер* - Ян де Бонт\n*Сценарий* - Майкл Крайтон, Энн-Мари Мартин", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -49,7 +49,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.4':
-                    img = open('static/metro.jpg', 'rb')
+                    img = open('metro.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - Россия\n*Жанр* - триллер, драма\n*Слоган* - «Осторожно! Двери закрываются!»\n*Режиссер* - Антон Мегердичев\n*Сценарий* - Денис Курышев, Виктория Евсеева, Антон Мегердичев", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -62,7 +62,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.5':
-                    img = open('static/razlom.jpg', 'rb')
+                    img = open('razlom.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2018\n*Страна* - Норвегия\n*Жанр* - боевик, триллер, драма\n*Слоган* - «The Wave was only the beginning»\n*Режиссер* - Йон Андреас Андерсен\n*Сценарий* - Юн Коре Роке, Харальд Розенлёв-Эег", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -75,7 +75,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.6':
-                    img = open('static/tunel.jpg', 'rb')
+                    img = open('tunel.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - Норвегия\n*Жанр* - триллер, драма\n*Слоган* - «Сотни машин, тысячи людей, один шанс спастись»\n*Режиссер* - Пол Ойе\n*Сценарий* - Хьерсти Расмуссен", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -88,7 +88,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.7':
-                    img = open('static/i_granul_shotorm.jpg', 'rb')
+                    img = open('i_granul_shotorm.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2016\n*Страна* - США\n*Жанр* - боевик, триллер, драма, история\n*Слоган* - «32 survivors, room for 12»\n*Режиссер* - Крэйг Гиллеспи\n*Сценарий* - Скотт Сильвер, Пол Тэймеси, Эрик Джонсон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -101,7 +101,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.8':
-                    img = open('static/v_izolatii.webp', 'rb')
+                    img = open('v_izolatii.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - Канада\n*Жанр* - триллер, драма\n*Слоган* - «Hope is power»\n*Режиссер* - Патриция Розема\n*Сценарий* - Патриция Розема, Джин Хегланд", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -114,7 +114,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.9':
-                    img = open('static/volna.jpg', 'rb')
+                    img = open('volna.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - Норвегия, Швеция\n*Жанр* - боевик, триллер, драма\n*Слоган* - «It was only a matter of time»\n*Режиссер* - Роар Утхауг\n*Сценарий* - Юн Коре Роке, Харальд Розенлёв-Эег", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -127,7 +127,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.10':
-                    img = open('static/crab.jpg', 'rb')
+                    img = open('crab.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2022\n*Страна* - Швеция\n*Жанр* - фантастика, боевик, триллер, драма, приключения\n*Слоган* - «Hope Burns Brightest in The Cold»\n*Режиссер* - Адам Берг\n*Сценарий* - Адам Берг, Пелле Рострём, Йеркер Вирдборг", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -153,7 +153,7 @@ def test(bot):
 #Комедии - Круэлла     
             if call.message:
                 if call.data == '1.11':
-                    img = open('static/kruela.jpg', 'rb')
+                    img = open('kruela.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2021\n*Страна* - США \n*Жанр* - комедия, криминал, драма\n*Слоган* - «Hello cruel world»\n*Режиссер* - Крэйг Гиллеспи\n*Сценарий* - Дэна Фокс, Тони МакНамара, Алин Брош МакКенна", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -167,7 +167,7 @@ def test(bot):
 #Комедии - Мальчишник в Вегасе  
             if call.message:
                 if call.data == '1.12':
-                    img = open('static/malchishnic.jpg', 'rb')
+                    img = open('malchishnic.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - США \n*Жанр* - комедия\n*Слоган* - «Некоторым Вегас просто не по зубам»\n*Режиссер* - Тодд Филлипс\n*Сценарий* - Джон Лукас, Скотт Мур", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -180,7 +180,7 @@ def test(bot):
 #Комедии - Мы - Миллеры 
             if call.message:
                 if call.data == '1.13':
-                    img = open('static/milleri.jpg', 'rb')
+                    img = open('milleri.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2013\n*Страна* - США, Великобритания\n*Жанр* - комедия, криминал\n*Слоган* - «Если что, мы - Миллеры»\n*Режиссер* - Роусон Маршалл Тёрбер\n*Сценарий* - Боб Фишер, Стив Фабер, Шон Андерс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -193,7 +193,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.14':
-                    img = open('static/lishnie.jpg', 'rb')
+                    img = open('lishnie.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - США\n*Жанр* - комедия\n*Слоган* - «В любви не без медведя»\n*Режиссер* - Сет МакФарлейн\n*Сценарий* - Сет МакФарлейн, Алек Салкин, Уэллесли Уайлд", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -206,7 +206,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.15':
-                    img = open('static/lebovski.jpg', 'rb')
+                    img = open('lebovski.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1998\n*Страна* - США, Великобритания\n*Жанр* - комедия, криминал\n*Слоган* - «It takes guys as simple as the Dude and Walter to make a story this complicated... and they'd really rather be bowling»\n*Режиссер* - Джоэл Коэн, Итан Коэн\n*Сценарий* - Итан Коэн, Джоэл Коэн", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -219,7 +219,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.16':
-                    img = open('static/vpritik.jpg', 'rb')
+                    img = open('vpritik.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2010\n*Страна* - США\n*Жанр* - комедия\n*Слоган* - «Когда всё через...»\n*Режиссер* - Тодд Филлипс\n*Сценарий* - Адам Штикель, Тодд Филлипс, Алан Коэн", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -232,7 +232,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.17':
-                    img = open('static/stazher.webp', 'rb')
+                    img = open('stazher.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - США\n*Жанр* - мелодрама, комедия\n*Слоган* - «Опыт всегда в моде»\n*Режиссер* - Нэнси Майерс\n*Сценарий* - Нэнси Майерс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -245,7 +245,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.18':
-                    img = open('static/major-pjejn.webp', 'rb')
+                    img = open('major-pjejn.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1995\n*Страна* - США\n*Жанр* - комедия, приключения\n*Слоган* - «He's looking for a few good men... or a few guys old enough to shave»\n*Режиссер* - Ник Касл\n*Сценарий* - Уильям Робертс, Peter Penduik, Дин Лори", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -258,7 +258,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.19':
-                    img = open('static/neidealnyj-muzhchina.webp', 'rb')
+                    img = open('neidealnyj-muzhchina.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - Россия\n*Жанр* - комедия, фантастика, мелодрама\n*Слоган* - —\n*Режиссер* - Марюс Вайсберг\n*Сценарий* - Евгения Хрипкова, Жора Крыжовников", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -271,7 +271,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.20':
-                    img = open('static/pochemu-on.jpg', 'rb')
+                    img = open('pochemu-on.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2016\n*Страна* - США, Камбоджа\n*Жанр* - комедия\n*Слоган* - «Его дочь могла выбрать любого...»\n*Режиссер* - Джон Гамбург\n*Сценарий* - Джон Гамбург, Йен Хелфер, Джона Хилл", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -295,7 +295,7 @@ def test(bot):
 #Боевики - Гнев человеческий     
             if call.message:
                 if call.data == '1.21':
-                    img = open('static/gnev-chelovecheskij.jpg', 'rb')
+                    img = open('gnev-chelovecheskij.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2021\n*Страна* - Великобритания, США \n*Жанр* - боевик, триллер\n*Слоган* - —\n*Режиссер* - Гай Ричи\n*Сценарий* - Николя Бухриф, Эрик Беснард, Гай Ричи", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -309,7 +309,7 @@ def test(bot):
 #Боевики - Леон  
             if call.message:
                 if call.data == '1.22':
-                    img = open('static/leon.jpg', 'rb')
+                    img = open('leon.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1994\n*Страна* - Франция, США \n*Жанр* - боевик, триллер, драма, криминал\n*Слоган* - «Вы не можете остановить того, кого не видно»\n*Режиссер* - Люк Бессон\n*Сценарий* - Люк Бессон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -322,7 +322,7 @@ def test(bot):
 #Боевики - Карты, деньги, два ствола 
             if call.message:
                 if call.data == '1.23':
-                    img = open('static/karty-dengi-dva-stvola.jpg', 'rb')
+                    img = open('karty-dengi-dva-stvola.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1998\n*Страна* - Великобритания\n*Жанр* - боевик, комедия, криминал\n*Слоган* - «They lost half a million at cards but they've still got a few tricks up their sleeve»\n*Режиссер* - Гай Ричи\n*Сценарий* - Гай Ричи", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -335,7 +335,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.24':
-                    img = open('static/besslavnye-ubljudki.webp', 'rb')
+                    img = open('besslavnye-ubljudki.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - Германия, США\n*Жанр* - боевик, драма, комедия, военный\n*Слоган* - «Они мстят бодро, весело, со вкусом»\n*Режиссер* - Квентин Тарантино\n*Сценарий* - Квентин Тарантино", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -348,7 +348,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.25':
-                    img = open('static/major-grom-chumnoj-doktor.jpeg', 'rb')
+                    img = open('major-grom-chumnoj-doktor.jpeg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2021\n*Страна* - Россия\n*Жанр* - боевик, криминал, детектив, комедия\n*Слоган* - «Кто твой герой?»\n*Режиссер* - Олег Трофим\n*Сценарий* - Артем Габрелянов, Роман Котков, Евгений Еронин", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -361,7 +361,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.26':
-                    img = open('static/dzhon-uik.jpg', 'rb')
+                    img = open('dzhon-uik.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2014\n*Страна* - США, Китай\n*Жанр* - боевик, триллер, криминал\n*Слоган* - «Его лучше не трогать»\n*Режиссер* - Чад Стахелски, Дэвид Литч\n*Сценарий* - Дерек Колстад", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -374,7 +374,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.27':
-                    img = open('static/troja.jpg', 'rb')
+                    img = open('troja.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2004\n*Страна* - США, Мальта, Великобритания\n*Жанр* - боевик, история, драма, мелодрама\n*Слоган* - «For Troy»\n*Режиссер* - Вольфганг Петерсен\n*Сценарий* - Дэвид Бениофф, Гомер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -387,7 +387,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.28':
-                    img = open('static/mehanik.jpg', 'rb')
+                    img = open('mehanik.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2010\n*Страна* - США\n*Жанр* - боевик, триллер, криминал\n*Слоган* - «Someone has to fix the problems»\n*Режиссер* - Саймон Уэст\n*Сценарий* - Льюис Джон Карлино, Ричард Уэнк", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -400,7 +400,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.29':
-                    img = open('static/strelok.jpg', 'rb')
+                    img = open('strelok.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2007\n*Страна* - США\n*Жанр* - боевик, триллер, драма\n*Слоган* - «Раньше он верил в справедливость. Теперь - в возмездие»\n*Режиссер* - Антуан Фукуа\n*Сценарий* - Джонатан Лемкин, Стивен Хантер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -413,7 +413,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.30':
-                    img = open('static/gorod-grehov.jpg', 'rb')
+                    img = open('gorod-grehov.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2005\n*Страна* - США\n*Жанр* - боевик, триллер, криминал, детектив\n*Слоган* - «Deadly little Miho»\n*Режиссер* - Фрэнк Миллер, Квентин Тарантино, Роберт Родригес\n*Сценарий* - Фрэнк Миллер, Роберт Родригес", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -438,7 +438,7 @@ def test(bot):
 #Ужасы - Поезд в Пусан     
             if call.message:
                 if call.data == '1.31':
-                    img = open('static/poezd-v-pusan.jpg', 'rb')
+                    img = open('poezd-v-pusan.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2016\n*Страна* - Корея Южная \n*Жанр* - ужасы, боевик\n*Слоган* - «Остаться в живых или остаться человеком»\n*Режиссер* - Ён Сан-хо\n*Сценарий* - Пак Чу-сок, Ён Сан-хо", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -452,7 +452,7 @@ def test(bot):
 #Ужасы - Война миров Z  
             if call.message:
                 if call.data == '1.32':
-                    img = open('static/film-vojna-mirov-z.jpg', 'rb')
+                    img = open('film-vojna-mirov-z.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2013\n*Страна* - США \n*Жанр* - ужасы, фантастика, боевик, приключения\n*Слоган* - «I can't leave my family»\n*Режиссер* - Марк Форстер\n*Сценарий* - Мэттью Майкл Карнахан, Дрю Годдард, Дэймон Линделоф", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -465,7 +465,7 @@ def test(bot):
 #Ужасы - Добро пожаловать в Zомбилэнд 
             if call.message:
                 if call.data == '1.33':
-                    img = open('static/dobro-pozhalovat-v-zombiljend.jpg', 'rb')
+                    img = open('dobro-pozhalovat-v-zombiljend.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - США\n*Жанр* - ужасы, комедия, боевик\n*Слоган* - «Живой мертвому не товарищ»\n*Режиссер* - Рубен Фляйшер\n*Сценарий* - Ретт Риз, Пол Верник", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -478,7 +478,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.34':
-                    img = open('static/zakljatie.jpg', 'rb')
+                    img = open('zakljatie.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2013\n*Страна* - США\n*Жанр* - ужасы, детектив\n*Слоган* - «Основано на реальной истории Уорренов»\n*Режиссер* - Джеймс Ван\n*Сценарий* - Чад Хэйес, Кэри Хэйес", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -491,7 +491,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.35':
-                    img = open('static/28-dnej-spustja.jpg', 'rb')
+                    img = open('28-dnej-spustja.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2002\n*Страна* - Великобритания\n*Жанр* - ужасы, фантастика, триллер, драма\n*Слоган* - «Твои дни сочтены!»\n*Режиссер* - Дэнни Бойл\n*Сценарий* - Алекс Гарленд", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -504,7 +504,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.36':
-                    img = open('static/mgla.jpg', 'rb')
+                    img = open('mgla.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2007\n*Страна* - США\n*Жанр* - ужасы, триллер, фантастика\n*Слоган* - «Fear Changes Everything»\n*Режиссер* - Фрэнк Дарабонт\n*Сценарий* - Фрэнк Дарабонт, Стивен Кинг", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -517,7 +517,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.37':
-                    img = open('static/mumija.jpg', 'rb')
+                    img = open('mumija.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1999\n*Страна* - США, Великобритания, Марокко\n*Жанр* - фэнтези, приключения, боевик\n*Слоган* - «Death is only the beginning»\n*Режиссер* - Стивен Соммерс\n*Сценарий* - Стивен Соммерс, Джон Л. Болдерстон, Ллойд Фонвиелл", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -530,7 +530,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.38':
-                    img = open('static/zhivoe.webp', 'rb')
+                    img = open('zhivoe.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2017\n*Страна* - США, Великобритания\n*Жанр* - ужасы, фантастика, триллер\n*Слоган* - «Умное. Сильное. Бездушное»\n*Режиссер* - Даниэль Эспиноса\n*Сценарий* - Ретт Риз, Пол Верник", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -543,7 +543,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.39':
-                    img = open('static/drakula.webp', 'rb')
+                    img = open('drakula.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2014\n*Страна* - США, Великобритания, Ирландия\n*Жанр* - ужасы, фэнтези, боевик, драма\n*Слоган* - «Легенда обретёт бессмертие»\n*Режиссер* - Гари Шор\n*Сценарий* - Мэтт Сазама, Берк Шарплесс, Брэм Стокер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -556,7 +556,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.40':
-                    img = open('static/hizhina-v-lesu.jpg', 'rb')
+                    img = open('hizhina-v-lesu.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2011\n*Страна* - США\n*Жанр* - ужасы, комедия, фэнтези\n*Слоган* - «Думаете, знакомая история?»\n*Режиссер* - Дрю Годдард\n*Сценарий* - Джосс Уидон, Дрю Годдард", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -583,7 +583,7 @@ def test(bot):
 #Мультфильмы - Лука     
             if call.message:
                 if call.data == '1.41':
-                    img = open('static/luka.jpg', 'rb')
+                    img = open('luka.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2021\n*Страна* - США \n*Жанр* - мультфильм, фэнтези, комедия, приключения, семейный\n*Слоган* - —\n*Режиссер* - Энрико Касароса\n*Сценарий* - Майк Джонс, Энрико Касароса, Джесси Эндрюс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -597,7 +597,7 @@ def test(bot):
 #Мультфильмы - Моана  
             if call.message:
                 if call.data == '1.42':
-                    img = open('static/moana.jpg', 'rb')
+                    img = open('moana.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2016\n*Страна* - США \n*Жанр* - мультфильм, мюзикл, фэнтези, комедия, приключения, семейный\n*Слоган* - «The ocean is calling»\n*Режиссер* - Рон Клементс, Джон Маскер, Дон Холл\n*Сценарий* - Джаред Буш, Рон Клементс, Джон Маскер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -610,7 +610,7 @@ def test(bot):
 #Мультфильмы - Ходячий замок 
             if call.message:
                 if call.data == '1.43':
-                    img = open('static/hodjachij-zamok.jpg', 'rb')
+                    img = open('hodjachij-zamok.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2004\n*Страна* - Япония\n*Жанр* - аниме, мультфильм, фэнтези, мелодрама, приключения\n*Слоган* - —\n*Режиссер* - Хаяо Миядзаки\n*Сценарий* - Хаяо Миядзаки, Диана Уинн Джонс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -623,7 +623,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.44':
-                    img = open('static/unesennye-prizrakami.jpg', 'rb')
+                    img = open('unesennye-prizrakami.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2001\n*Страна* - Япония\n*Жанр* - аниме, мультфильм, фэнтези, приключения, семейный\n*Слоган* - «The tunnel led Chihiro to a mysterious town...»\n*Режиссер* - Хаяо Миядзаки\n*Сценарий* - Хаяо Миядзаки", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -636,7 +636,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.45':
-                    img = open('static/korol-lev.jpg', 'rb')
+                    img = open('korol-lev.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - США, Великобритания\n*Жанр* - мультфильм, мюзикл, драма, приключения, семейный\n*Слоган* - «The King Has Returned»\n*Режиссер* - Джон Фавро\n*Сценарий* - Джефф Натансон, Ирен Меччи, Джонатан Робертс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -649,7 +649,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.46':
-                    img = open('static/zov-predkov.jpg', 'rb')
+                    img = open('zov-predkov.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2020\n*Страна* - США, Канада\n*Жанр* - драма, приключения, семейный\n*Слоган* - «Based on the Legendary Novel»\n*Режиссер* - Крис Сандерс\n*Сценарий* - Майкл Грин, Эгертон Райерсон Янг, Джек Лондон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -662,7 +662,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.47':
-                    img = open('static/vall-i.jpg', 'rb')
+                    img = open('vall-i.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2008\n*Страна* - США \n*Жанр* - мультфильм, фантастика, приключения, семейный\n*Слоган* - «Любовь - дело техники»\n*Режиссер* - Эндрю Стэнтон\n*Сценарий* - Эндрю Стэнтон, Джим Рирдон, Пит Доктер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -675,7 +675,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.48':
-                    img = open('static/korporacija-monstrov.jpg', 'rb')
+                    img = open('korporacija-monstrov.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2001\n*Страна* - США\n*Жанр* - мультфильм, фэнтези, комедия, приключения, семейный\n*Слоган* - «We Think They Are Scary, But Really We Scare Them!»\n*Режиссер* - Пит Доктер, Дэвид Силверман, Ли Анкрич\n*Сценарий* - Эндрю Стэнтон, Дэниел Герсон, Пит Доктер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -688,7 +688,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.49':
-                    img = open('static/mulan.jpg', 'rb')
+                    img = open('mulan.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2020\n*Страна* - США, Китай, Канада\n*Жанр* - боевик, фэнтези, драма\n*Слоган* - «Loyal, Brave, True»\n*Режиссер* - Антуан Фукуа\n*Сценарий* - Ники Каро", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -701,7 +701,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.50':
-                    img = open('static/vokrug-sveta-za-80-dnej.jpeg', 'rb')
+                    img = open('vokrug-sveta-za-80-dnej.jpeg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2021\n*Страна* - Франция, Бельгия\n*Жанр* - мультфильм, комедия, приключения, семейный\n*Слоган* - —\n*Режиссер* - Самуэль Турно\n*Сценарий* - Джерри Суоллоу, Дэвид Мишель, Дерек Дресслер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -726,7 +726,7 @@ def test(bot):
 #Приключения - Выживший     
             if call.message:
                 if call.data == '1.51':
-                    img = open('static/vyzhivshij.jpg', 'rb')
+                    img = open('vyzhivshij.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - США, Гонконг, Тайвань \n*Жанр* - приключения, вестерн, боевик, драма, биография\n*Слоган* - «До последней капли крови»\n*Режиссер* - Алехандро Гонсалес Иньярриту\n*Сценарий* - Марк Л. Смит, Алехандро Гонсалес Иньярриту, Майкл Панке", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -740,7 +740,7 @@ def test(bot):
 #Приключения - Парк Юрского периода  
             if call.message:
                 if call.data == '1.52':
-                    img = open('static/park-jurskogo-perioda.jpg', 'rb')
+                    img = open('park-jurskogo-perioda.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1993\n*Страна* - США \n*Жанр* - приключения, фантастика, семейный\n*Слоган* - «The most phenomenal discovery of our time... becomes the greatest adventure of all time»\n*Режиссер* - Стивен Спилберг\n*Сценарий* - Майкл Крайтон, Дэвид Кепп", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -753,7 +753,7 @@ def test(bot):
 #Приключения - Анчартед: На картах не значится 
             if call.message:
                 if call.data == '1.53':
-                    img = open('static/ancharted-na-kartah-ne-znachitsja.webp', 'rb')
+                    img = open('ancharted-na-kartah-ne-znachitsja.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2022\n*Страна* - США, Испания\n*Жанр* - приключения, боевик\n*Слоган* - —\n*Режиссер* - Рубен Фляйшер\n*Сценарий* - Артур Маркам, Мэтт Холлоуэй, Рэйф Джадкинс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -766,7 +766,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.54':
-                    img = open('static/kon-tiki.webp', 'rb')
+                    img = open('kon-tiki.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - Норвегия, Великобритания, Дания, Германия, Швеция\n*Жанр* - приключения, биография, история, драма\n*Слоган* - «Через океан в поисках истины»\n*Режиссер* - Хоаким Роннинг, Эспен Сандберг\n*Сценарий* - Петтер Скавлан", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -779,7 +779,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.55':
-                    img = open('static/kruiz-po-dzhungljam.jpg', 'rb')
+                    img = open('kruiz-po-dzhungljam.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2021\n*Страна* - США\n*Жанр* - приключения, комедия, фэнтези\n*Слоган* - —\n*Режиссер* - Жауме Кольет-Серра\n*Сценарий* - Майкл Грин, Гленн Фикарра, Джон Рекуа", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -792,7 +792,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.56':
-                    img = open('static/vremja-pervyh.webp', 'rb')
+                    img = open('vremja-pervyh.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2017\n*Страна* - Россия\n*Жанр* - приключения, триллер, биография, история\n*Слоган* - «Подними голову!»\n*Режиссер* - Дмитрий Киселёв\n*Сценарий* - Юрий Коротков, Сергей Калужанов, Ирина Пивоварова", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -805,7 +805,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.57':
-                    img = open('static/tajna-pechati-drakona.jpg', 'rb')
+                    img = open('tajna-pechati-drakona.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - Россия, Китай\n*Жанр* - приключения, фэнтези\n*Слоган* - —\n*Режиссер* - Олег Степченко\n*Сценарий* - Олег Степченко, Алексей А. Петрухин, Дмитрий Пальцев", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -818,7 +818,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.58':
-                    img = open('static/ostvind-vostochnyj-veter.jpg', 'rb')
+                    img = open('ostvind-vostochnyj-veter.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2013\n*Страна* - Германия\n*Жанр* - приключения, семейный, драма\n*Слоган* - —\n*Режиссер* - Кристина Магдалена Хенн, Леа Шмидбауэр\n*Сценарий* - Ева Карлстрём, Андреас Ульмке-Смитон, Мартин Мошкович", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -831,7 +831,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.59':
-                    img = open('static/jebigejl.webp', 'rb')
+                    img = open('jebigejl.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - Россия\n*Жанр* - приключения, фэнтези, семейный\n*Слоган* - «В мире всё не то, чем кажется»\n*Режиссер* - Александр Богуславский\n*Сценарий* - Дмитрий Жигалов, Александр Богуславский, Александра Примаченко", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -844,7 +844,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '1.60':
-                    img = open('static/jespen-v-korolevstve-trollej.jpg', 'rb')
+                    img = open('jespen-v-korolevstve-trollej.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2017\n*Страна* - Норвегия\n*Жанр* - приключения, семейный\n*Слоган* - «Something big is coming»\n*Режиссер* - Миккель Бренне Сандемусе\n*Сценарий* - Александр Кирквуд Браун, Эспен Энгер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -875,7 +875,7 @@ def test(bot):
   
             if call.message:
                 if call.data == '2.1':
-                    img = open('static/hudshiy-chelovek-na-svete.jpg', 'rb')
+                    img = open('hudshiy-chelovek-na-svete.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,4/10\n*Год производства* - 2021 \n*Жанр* - Норвегия, Франция, Швеция, Дания\n*Слоган* - —\n*Режиссер* - Йоаким Триер\n*Сценарий* - Йоаким Триер, Эскиль Вогт", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -889,7 +889,7 @@ def test(bot):
 #Норвегия - Тысячу раз «спокойной ночи»  
             if call.message:
                 if call.data == '2.2':
-                    img = open('static/tysjachu-raz-spokojnoj-nochi.jpg', 'rb')
+                    img = open('tysjachu-raz-spokojnoj-nochi.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,3/10\n*Год производства* - 2013 \n*Жанр* - драма, военный\n*Слоган* - «She risked life and family to change the world»\n*Режиссер* - Эрик Поппе\n*Сценарий* - Эрик Поппе, Харальд Розенлёв-Эег, Jan Trygve Røyneland", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -902,7 +902,7 @@ def test(bot):
 #Норвегия - Охотники за головами 
             if call.message:
                 if call.data == '2.3':
-                    img = open('static/ohotniki-za-golovami.jpg', 'rb')
+                    img = open('ohotniki-za-golovami.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,5/10\n*Год производства* - 2011 \n*Жанр* - боевик, триллер, криминал\n*Слоган* - «The hunt is on»\n*Режиссер* - Мортен Тильдум\n*Сценарий* - Ульф Рюберг, Ларс Гудместад, Ю Несбё", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -915,7 +915,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.4':
-                    img = open('static/korol-chertova-ostrova.jpg', 'rb')
+                    img = open('korol-chertova-ostrova.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,5/10\n*Год производства* - 2010 \n*Жанр* - Норвегия, Франция, Швеция, Польша\n*Слоган* - «Norway, 1915, a home for boys»\n*Режиссер* - Мариус Хольст\n*Сценарий* - Деннис Магнуссон, Эрик Шмид, Метте М. Больстад", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -928,7 +928,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.5':
-                    img = open('static/gunda.jpg', 'rb')
+                    img = open('gunda.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,5/10\n*Год производства* - 2020 \n*Жанр* - документальный\n*Слоган* - —\n*Режиссер* - Виктор Косаковский\n*Сценарий* - Виктор Косаковский, Айнара Вера", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -953,7 +953,7 @@ def test(bot):
 #Россия - Брат     
             if call.message:
                 if call.data == '2.6':
-                    img = open('static/brat.jpg', 'rb')
+                    img = open('brat.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,3/10\n*Год производства* - 1997 \n*Жанр* - драма, криминал, боевик\n*Слоган* - —\n*Режиссер* - Алексей Балабанов\n*Сценарий* - Алексей Балабанов", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -967,7 +967,7 @@ def test(bot):
 #Россия - Дурак  
             if call.message:
                 if call.data == '2.7':
-                    img = open('static/durak.jpg', 'rb')
+                    img = open('durak.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,1/10\n*Год производства* - 2014 \n*Жанр* - драма\n*Слоган* - «Успеет ли он спасти всех»\n*Режиссер* - Юрий Быков\n*Сценарий* - Юрий Быков", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -980,7 +980,7 @@ def test(bot):
 #Россия - Легенда №17 
             if call.message:
                 if call.data == '2.8':
-                    img = open('static/legenda-17.jpg', 'rb')
+                    img = open('legenda-17.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,0/10\n*Год производства* - 2012 \n*Жанр* - спорт, драма, биография\n*Слоган* - —\n*Режиссер* - Николай Лебедев\n*Сценарий* - Михаил Местецкий, Николай Куликов, Николай Лебедев", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -993,7 +993,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.9':
-                    img = open('static/o-chem-govoryat-muzhchiny.webp', 'rb')
+                    img = open('o-chem-govoryat-muzhchiny.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,8/10\n*Год производства* - 2010 \n*Жанр* - комедия\n*Слоган* - —\n*Режиссер* - Дмитрий Дьяченко\n*Сценарий* - Леонид Барац, Сергей Петрейков, Ростислав Хаит", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1006,7 +1006,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.10':
-                    img = open('static/ogon.jpg', 'rb')
+                    img = open('ogon.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,7/10\n*Год производства* - 2020 \n*Жанр* - драма, боевик\n*Слоган* - —\n*Режиссер* - Алексей Нужный\n*Сценарий* - Николай Куликов, Алексей Нужный, Константин Майер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1032,7 +1032,7 @@ def test(bot):
 #Великобритания - Эмма     
             if call.message:
                 if call.data == '2.11':
-                    img = open('static/jemma.jpg', 'rb')
+                    img = open('jemma.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 6,9/10\n*Год производства* - 2020 \n*Жанр* - комедия, мелодрама\n*Слоган* - «Очаровательна, остроумна, обеспеченна»\n*Режиссер* - Отем де Уайлд\n*Сценарий* - Элинор Каттон, Джейн Остин", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1046,7 +1046,7 @@ def test(bot):
 #Великобритания - Три секунды  
             if call.message:
                 if call.data == '2.12':
-                    img = open('static/tri-sekundy.jpg', 'rb')
+                    img = open('tri-sekundy.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,9/10\n*Год производства* - 2019 \n*Жанр* - триллер, криминал, боевик\n*Слоган* - «Против мафии. Против полиции. Против всех»\n*Режиссер* - Андреа Ди Стефано\n*Сценарий* - Мэтт Кук, Роуэн Жоффе, Андреа Ди Стефано", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1059,7 +1059,7 @@ def test(bot):
 #Великобритания - Гонка века 
             if call.message:
                 if call.data == '2.13':
-                    img = open('static/gonka-veka.jpg', 'rb')
+                    img = open('gonka-veka.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 9,6/10\n*Год производства* - 2017 \n*Жанр* - драма, детектив, приключения, биография\n*Слоган* - «Узнай неразгаданную тайну, потрясшую мир»\n*Режиссер* - Джеймс Марш\n*Сценарий* - Скотт З. Бёрнс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1072,7 +1072,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.14':
-                    img = open('static/dve-korolevy.jpg', 'rb')
+                    img = open('dve-korolevy.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,5/10\n*Год производства* - 2018 \n*Жанр* - драма, биография, история\n*Слоган* - «Две сестры — одна судьба»\n*Режиссер* - Джози Рурк\n*Сценарий* - Бо Уиллимон, Джон Гай", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1085,7 +1085,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.15':
-                    img = open('static/kod-krasnyj.jpg', 'rb')
+                    img = open('kod-krasnyj.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,1/10\n*Год производства* - 2018 \n*Жанр* - биография, драма, история\n*Слоган* - «Реальная история русской шпионки, предотвратившей Третью мировую войну»\n*Режиссер* - Тревор Нанн\n*Сценарий* - Линдсэй Шаперо, Jennie Rooney", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1113,7 +1113,7 @@ def test(bot):
 #Франция - Расправь крылья     
             if call.message:
                 if call.data == '2.16':
-                    img = open('static/rasprav-krylja.jpg', 'rb')
+                    img = open('rasprav-krylja.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,0/10\n*Год производства* - 2019 \n*Жанр* - драма, приключения, семейный\n*Слоган* - —\n*Режиссер* - Николя Ванье\n*Сценарий* - Лилу Фогли, Николя Ванье, Кристиан Муллек", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1127,7 +1127,7 @@ def test(bot):
 #Франция - Прекрасная эпоха  
             if call.message:
                 if call.data == '2.17':
-                    img = open('static/prekrasnaja-jepoha.jpg', 'rb')
+                    img = open('prekrasnaja-jepoha.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,7/10\n*Год производства* - 2019 \n*Жанр* - мелодрама, драма, комедия\n*Слоган* - «What if you could relive the happiest day of your life?»\n*Режиссер* - Николя Бедос\n*Сценарий* - Николя Бедос", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1140,7 +1140,7 @@ def test(bot):
 #Франция - Как прогулять школу с пользой 
             if call.message:
                 if call.data == '2.18':
-                    img = open('static/kak-proguljat-shkolu-s-polzoj.jpg', 'rb')
+                    img = open('kak-proguljat-shkolu-s-polzoj.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,9/10\n*Год производства* - 2017 \n*Жанр* - драма, комедия, семейный\n*Слоган* - —\n*Режиссер* - Николя Ванье\n*Сценарий* - Жером Тоннер, Николя Ванье", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1153,7 +1153,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.19':
-                    img = open('static/prikljuchenija-remi.jpg', 'rb')
+                    img = open('prikljuchenija-remi.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,9/10\n*Год производства* - 2018 \n*Жанр* - мелодрама, приключения\n*Слоган* - —\n*Режиссер* - Антуан Блоссье\n*Сценарий* - Антуан Блоссье, Гектор Мало", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1166,7 +1166,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.20':
-                    img = open('static/obeschanie-na-rassvete.jpg', 'rb')
+                    img = open('obeschanie-na-rassvete.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,8/10\n*Год производства* - 2017 \n*Жанр* - драма, мелодрама, военный, биография\n*Слоган* - —\n*Режиссер* - Эрик Барбье\n*Сценарий* - Эрик Барбье, Мари Эйнар, Ромен Гари", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1192,7 +1192,7 @@ def test(bot):
 #США - Побег из Шоушенка     
             if call.message:
                 if call.data == '2.21':
-                    img = open('static/pobeg-iz-shoushenka.jpg', 'rb')
+                    img = open('pobeg-iz-shoushenka.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 9,1/10\n*Год производства* - 1994 \n*Жанр* - драма\n*Слоган* - «Страх - это кандалы. Надежда - это свобода»\n*Режиссер* - Фрэнк Дарабонт\n*Сценарий* - Фрэнк Дарабонт, Стивен Кинг", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1206,7 +1206,7 @@ def test(bot):
 #США - Начало  
             if call.message:
                 if call.data == '2.22':
-                    img = open('static/nachalo.jpg', 'rb')
+                    img = open('nachalo.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,7/10\n*Год производства* - 2010 \n*Жанр* - фантастика, боевик, триллер, драма, детектив\n*Слоган* - «Твой разум - место преступления»\n*Режиссер* - Кристофер Нолан\n*Сценарий* - Кристофер Нолан", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1219,7 +1219,7 @@ def test(bot):
 #США - Темный рыцарь 
             if call.message:
                 if call.data == '2.23':
-                    img = open('static/temnyy-rycar.jpg', 'rb')
+                    img = open('temnyy-rycar.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,5/10\n*Год производства* - 2008 \n*Жанр* - фантастика, боевик, триллер, криминал, драма\n*Слоган* - «Добро пожаловать в мир Хаоса!»\n*Режиссер* - Кристофер Нолан\n*Сценарий* - Кристофер Нолан, Джонатан Нолан, Дэвид С. Гойер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1232,7 +1232,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.24':
-                    img = open('static/zelenaya-kniga.jpg', 'rb')
+                    img = open('zelenaya-kniga.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 8,4/10\n*Год производства* - 2018 \n*Жанр* - биография, комедия, драма\n*Слоган* - «Inspired by a True Friendship»\n*Режиссер* - Питер Фаррелли\n*Сценарий* - Ник Валлелонга, Брайан Хэйес Карри, Питер Фаррелли", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1245,7 +1245,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '2.25':
-                    img = open('static/volk-s-uoll-strit.jpg', 'rb')
+                    img = open('volk-s-uoll-strit.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Рейтинг на Кинопоиск* - 7,9/10\n*Год производства* - 2013 \n*Жанр* - драма, криминал, биография, комедия\n*Слоган* - «Earn. Spend. Party»\n*Режиссер* - Мартин Скорсезе\n*Сценарий* - Теренс Уинтер, Джордан Белфорт", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1275,7 +1275,7 @@ def test(bot):
 # книги - Фантастические твари и где они обитают            
             if call.message:
                 if call.data == '3.1':
-                    img = open('static/tvari.jpg', 'rb')
+                    img = open('tvari.jpg', 'rb')
                     bot.send_message(call.message.chat.id,"*Год производства* - 2016\n*Страна* - Великобритания, США \n*Жанр* - фэнтези, приключения, семейный\n*Слоган* - «Открой новую главу волшебного мира Дж.К.Роулинг»\n*Режиссер* - Дэвид Йейтс\n*Сценарий* - Дж.К. Роулинг", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1287,7 +1287,7 @@ def test(bot):
 # книги - голодные игры
             if call.message:
                 if call.data == '3.2':
-                    img = open('static/hunger_game.webp', 'rb')
+                    img = open('hunger_game.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - США \n*Жанр* - фантастика, боевик, триллер, приключения\n*Слоган* - «Весь мир смотрит»\n*Режиссер* - Гэри Росс\n*Сценарий* - Сьюзен Коллинз, Гэри Росс, Билли Рэй", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1299,7 +1299,7 @@ def test(bot):
 # книги - Марсианин
             if call.message:
                 if call.data == '3.3':
-                    img = open('static/Marsianin.webp', 'rb')
+                    img = open('Marsianin.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - Великобритания, США, Венгрия, Иордания\n*Жанр* - фантастика, приключения\n*Слоган* - «Верните его домой»\n*Режиссер* - Ридли Скотт\n*Сценарий* - Дрю Годдард, Энди Уир", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1312,7 +1312,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.4':
-                    img = open('static/maze_runner.jpg', 'rb')
+                    img = open('maze_runner.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2014\n*Страна* - США, Великобритания\n*Жанр* - фантастика, триллер, приключения\n*Слоган* - «Только не останавливайся»\n*Режиссер* - Уэс Болл\n*Сценарий* - Ной Оппенхайм, Грант Пирс Майерс, Т.С. Наулин", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1325,7 +1325,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.5':
-                    img = open('static/Divergent.jpg', 'rb')
+                    img = open('Divergent.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2014\n*Страна* - США\n*Жанр* - фантастика, детектив, боевик, мелодрама\n*Слоган* - «Ты опасен, если ты другой»\n*Режиссер* - Нил Бёргер\n*Сценарий* - Ивэн Догерти, Ванесса Тейлор, Вероника Рот", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1338,7 +1338,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.6':
-                    img = open('static/twilight.jpg', 'rb')
+                    img = open('twilight.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2008\n*Страна* - США\n*Жанр* - фэнтези, драма, мелодрама\n*Слоган* - «Запретный плод сладок»\n*Режиссер* - Кэтрин Хардвик\n*Сценарий* - Мелисса Розенберг, Стефани Майер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1351,7 +1351,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.7':
-                    img = open('static/Day_Triffids.jpg', 'rb')
+                    img = open('Day_Triffids.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - Великобритания, Канада\n*Жанр* - ужасы, фантастика, боевик, триллер\n*Слоган* - «Когда мир погрузится во мрак»\n*Режиссер* - Ник Копус\n*Сценарий* - Патрик Харбинсон, Ричард Мьюис, Джон Уиндэм", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1364,7 +1364,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.8':
-                    img = open('static/I_legend.jpg', 'rb')
+                    img = open('I_legend.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2007\n*Страна* - США\n*Жанр* - фантастика, боевик, триллер, драма, приключения\n*Слоган* - «Последний человек на Земле не одинок»\n*Режиссер* - Френсис Лоуренс\n*Сценарий* - Марк Протосевич, Акива Голдсман, Джон Уильям Коррингтон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1377,7 +1377,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.9':
-                    img = open('static/War_Worlds.jpg', 'rb')
+                    img = open('War_Worlds.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2005\n*Страна* - США\n*Жанр* - фантастика, боевик, приключения\n*Слоган* - «Они уже здесь»\n*Режиссер* - Стивен Спилберг\n*Сценарий* - Джош Фридман, Дэвид Кепп, Герберт Джордж Уэллс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1390,7 +1390,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '3.10':
-                    img = open('static/Lord_ Rings.webp', 'rb')
+                    img = open('Lord_ Rings.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2001\n*Страна* - Новая Зеландия, США\n*Жанр* - фэнтези, приключения, драма\n*Слоган* - «Power can be held in the smallest of things...»\n*Режиссер* - Питер Джексон\n*Сценарий* - Фрэн Уолш, Филиппа Бойенс, Питер Джексон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1422,7 +1422,7 @@ def test(bot):
 # Веселое - Отпуск по обмену            
             if call.message:
                 if call.data == '4.1':
-                    img = open('static/otpusk-po-obmenu.jpg', 'rb')
+                    img = open('otpusk-po-obmenu.jpg', 'rb')
                     bot.send_message(call.message.chat.id,"*Год производства* - 2006\n*Страна* - США \n*Жанр* - мелодрама, комедия\n*Слоган* - —\n*Режиссер* - Нэнси Майерс\n*Сценарий* - Нэнси Майерс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1434,7 +1434,7 @@ def test(bot):
 # Веселое - Маска
             if call.message:
                 if call.data == '4.2':
-                    img = open('static/maska.jpg', 'rb')
+                    img = open('maska.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1994\n*Страна* - США \n*Жанр* - комедия, фэнтези, криминал\n*Слоган* - «Был никем - стал героем»\n*Режиссер* - Чак Рассел\n*Сценарий* - Майк Уэрб, Майкл Фэллон, Марк Верхайден", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1446,7 +1446,7 @@ def test(bot):
 # Веселое - Привет, Джули!
             if call.message:
                 if call.data == '4.3':
-                    img = open('static/privet-dzhuli.jpg', 'rb')
+                    img = open('privet-dzhuli.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2010\n*Страна* - США\n*Жанр* - драма, мелодрама, комедия\n*Слоган* - «You never forget your first love»\n*Режиссер* - Роб Райнер\n*Сценарий* - Роб Райнер, Эндрю Шайнмен, Вэнделин Ван Драанен", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1459,7 +1459,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.4':
-                    img = open('static/mamma-mia.jpg', 'rb')
+                    img = open('mamma-mia.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2008\n*Страна* - США, Великобритания, Германия\n*Жанр* - мюзикл, мелодрама, комедия\n*Слоган* - «Добро пожаловать под венец»\n*Режиссер* - Филлида Ллойд\n*Сценарий* - Кэтрин Джонсон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1472,7 +1472,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.5':
-                    img = open('static/oktjabrskoe-nebo.jpg', 'rb')
+                    img = open('oktjabrskoe-nebo.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1999\n*Страна* - США\n*Жанр* - драма, семейный, биография\n*Слоган* - «Фильм основан на реальных событиях»\n*Режиссер* - Джо Джонстон\n*Сценарий* - Льюис Колик, Гомер Х. Хикэм мл.", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1485,7 +1485,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.6':
-                    img = open('static/horosho-byt-tihonej.jpg', 'rb')
+                    img = open('horosho-byt-tihonej.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - США\n*Жанр* - драма, мелодрама\n*Слоган* - «Будь фильтром, а не губкой!»\n*Режиссер* - Стивен Чбоски\n*Сценарий* - Стивен Чбоски", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1498,7 +1498,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.7':
-                    img = open('static/mezhdu-nebom-i-zemlej.jpg', 'rb')
+                    img = open('mezhdu-nebom-i-zemlej.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2005\n*Страна* - США\n*Жанр* - фэнтези, драма, мелодрама, комедия\n*Слоган* - «Только любви все под силу»\n*Режиссер* - Марк Уотерс\n*Сценарий* - Питер Толан, Лесли Диксон, Марк Леви", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1511,7 +1511,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.8':
-                    img = open('static/semja-naprokat.jpg', 'rb')
+                    img = open('semja-naprokat.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1997\n*Страна* - Канада\n*Жанр* - фэнтези, драма, мелодрама\n*Слоган* - —\n*Режиссер* - Тед Котчефф\n*Сценарий* - Памела Уоллес, Эрл У. Уоллес", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1524,7 +1524,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.9':
-                    img = open('static/10-prichin-moej-nenavisti.jpg', 'rb')
+                    img = open('10-prichin-moej-nenavisti.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1999\n*Страна* - США\n*Жанр* - драма, мелодрама, комедия\n*Слоган* - «I pine, I perish!»\n*Режиссер* - Джил Джангер\n*Сценарий* - Карен МакКулла, Кирстен Смит, Уильям Шекспир", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1537,7 +1537,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.10':
-                    img = open('static/tajnaja-zhizn-pchel.jpg', 'rb')
+                    img = open('tajnaja-zhizn-pchel.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2008\n*Страна* - США\n*Жанр* - драма\n*Слоган* - «Bring Your Girlfriends, Sisters, Mothers and Daughters»\n*Режиссер* - Джина Принс-Байтвуд\n*Сценарий* - Джина Принс-Байтвуд, Сью Монк Кидд", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1561,7 +1561,7 @@ def test(bot):
 # Грустное - Мальчик в полосатой пижаме            
             if call.message:
                 if call.data == '4.11':
-                    img = open('static/malchik-v-polosatoj-pizhame.jpg', 'rb')
+                    img = open('malchik-v-polosatoj-pizhame.jpg', 'rb')
                     bot.send_message(call.message.chat.id,"*Год производства* - 2008\n*Страна* - Великобритания, США \n*Жанр* - драма, военный, история\n*Слоган* - «Взрослое детство войны»\n*Режиссер* - Марк Херман\n*Сценарий* - Марк Херман, Джон Бойн", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1573,7 +1573,7 @@ def test(bot):
 # Грустное - Хорошие дети не плачут
             if call.message:
                 if call.data == '4.12':
-                    img = open('static/horoshie-deti-ne-plachut.jpg', 'rb')
+                    img = open('horoshie-deti-ne-plachut.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - Нидерланды \n*Жанр* - драма, семейный, спорт\n*Слоган* - —\n*Режиссер* - Деннис Ботс\n*Сценарий* - Карин ван Хольст Пеллекан, Жак Вринс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1585,7 +1585,7 @@ def test(bot):
 # Грустное - Дневник памяти
             if call.message:
                 if call.data == '4.13':
-                    img = open('static/dnevnik-pamjati.jpg', 'rb')
+                    img = open('dnevnik-pamjati.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2004\n*Страна* - США\n*Жанр* - драма, мелодрама\n*Слоган* - «За каждой большой любовью стоит большая история»\n*Режиссер* - Ник Кассаветис\n*Сценарий* - Джереми Левин, Ян Сарди, Николас Спаркс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1598,7 +1598,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.14':
-                    img = open('static/do-vstrechi-s-toboj.jpg', 'rb')
+                    img = open('do-vstrechi-s-toboj.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2016\n*Страна* - США, Великобритания\n*Жанр* - драма, мелодрама\n*Слоган* - «Live boldly»\n*Режиссер* - Теа Шэррок\n*Сценарий* - Джоджо Мойес", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1611,7 +1611,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.15':
-                    img = open('static/v-metre-drug-ot-druga.jpg', 'rb')
+                    img = open('v-metre-drug-ot-druga.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - США\n*Жанр* - драма, мелодрама\n*Слоган* - «When Life Keeps You Apart, Fight For Every Inch»\n*Режиссер* - Джастин Бальдони\n*Сценарий* - Микки Доутри, Тобиас Иаконис", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1624,7 +1624,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.16':
-                    img = open('static/most-v-terabitiju.jpg', 'rb')
+                    img = open('most-v-terabitiju.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2006\n*Страна* - США\n*Жанр* - фэнтези, драма, приключения, семейный\n*Слоган* - «Сказка становится реальностью»\n*Режиссер* - Габор Чупо\n*Сценарий* - Джефф Стокуэлл, Дэвид Патерсон, Кэтрин Патерсон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1637,7 +1637,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.17':
-                    img = open('static/kuda-privodjat-mechty.jpg', 'rb')
+                    img = open('kuda-privodjat-mechty.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1998\n*Страна* - США, Новая Зеландия\n*Жанр* - фэнтези, драма, мелодрама\n*Слоган* - «After life there is more. The end is just the beginning»\n*Режиссер* - Винсент Уорд\n*Сценарий* - Роналд Бэсс, Ричард Мэтисон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1650,7 +1650,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.18':
-                    img = open('static/vinovaty-zvezdy.jpg', 'rb')
+                    img = open('vinovaty-zvezdy.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2014\n*Страна* - США\n*Жанр* - драма, мелодрама\n*Слоган* - «История, покорившая миллионы женских сердец»\n*Режиссер* - Джош Бун\n*Сценарий* - Скотт Нойстедтер, Майкл Х. Уэбер, Джон Грин", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1663,7 +1663,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.19':
-                    img = open('static/ja-kristina.jpg', 'rb')
+                    img = open('ja-kristina.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1981\n*Страна* - Германия (ФРГ)\n*Жанр* - драма, биография\n*Слоган* - «Наркотики... Проституция... Смерть?»\n*Режиссер* - Ули Эдель\n*Сценарий* - Герман Вайгель, Ули Эдель, Кай Херманн", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1676,7 +1676,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.20':
-                    img = open('static/klass.jpg', 'rb')
+                    img = open('klass.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2007\n*Страна* - Эстония\n*Жанр* - драма\n*Слоган* - «Я не умру вам назло…»\n*Режиссер* - Ильмар Рааг\n*Сценарий* - Ильмар Рааг, Валло Кирс, Пярт Уусберг", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1700,7 +1700,7 @@ def test(bot):
 # Загадочное - Другие            
             if call.message:
                 if call.data == '4.21':
-                    img = open('static/drugie.jpg', 'rb')
+                    img = open('drugie.jpg', 'rb')
                     bot.send_message(call.message.chat.id,"*Год производства* - 2001\n*Страна* - Испания, США, Франция, Италия \n*Жанр* - ужасы, триллер, детектив\n*Слоган* - «Рано или поздно они найдут тебя...»\n*Режиссер* - Алехандро Аменабар\n*Сценарий* - Алехандро Аменабар", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1712,7 +1712,7 @@ def test(bot):
 # Загадочное - Знакомьтесь, Джо Блэк
             if call.message:
                 if call.data == '4.22':
-                    img = open('static/znakomtes-dzho-bljek.jpg', 'rb')
+                    img = open('znakomtes-dzho-bljek.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1998\n*Страна* - США \n*Жанр* - мелодрама, фэнтези, драма\n*Слоган* - «Meet Joe Black: Sooner or Later Everyone Does»\n*Режиссер* - Мартин Брест\n*Сценарий* - Рон Осборн, Джефф Рино, Кевин Уэйд", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1724,7 +1724,7 @@ def test(bot):
 # Загадочное - Дориан Грей
             if call.message:
                 if call.data == '4.23':
-                    img = open('static/dorian-grej.jpg', 'rb')
+                    img = open('dorian-grej.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - Великобритания\n*Жанр* - фэнтези, триллер, драма\n*Слоган* - «Молодой навсегда. Проклятый навеки»\n*Режиссер* - Оливер Паркер\n*Сценарий* - Тоби Финлэй, Оскар Уайльд", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1737,7 +1737,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.24':
-                    img = open('static/telo.jpg', 'rb')
+                    img = open('telo.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2012\n*Страна* - Испания\n*Жанр* - триллер, детектив, криминал\n*Слоган* - «Смерть – не всегда конец»\n*Режиссер* - Ориол Паоло\n*Сценарий* - Ориол Паоло, Лара Сендим", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1750,7 +1750,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.25':
-                    img = open('static/somnija.webp', 'rb')
+                    img = open('somnija.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2014\n*Страна* - США\n*Жанр* - ужасы, фэнтези, триллер, драма\n*Слоган* - «Кошмары станут реальностью»\n*Режиссер* - Майк Флэнеган\n*Сценарий* - Майк Флэнеган, Джефф Ховард", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1763,7 +1763,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.26':
-                    img = open('static/sonnaja-loschina.jpg', 'rb')
+                    img = open('sonnaja-loschina.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1999\n*Страна* - США, Германия\n*Жанр* - триллер, фэнтези, ужасы, детектив\n*Слоган* - «Вы можете запереть двери. Вы можете закрыть окна. Но сможете ли вы пережить эту ночь?»\n*Режиссер* - Тим Бёртон\n*Сценарий* - Эндрю Кевин Уокер, Вашингтон Ирвинг, Кевин Ягер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1776,7 +1776,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.27':
-                    img = open('static/kljuch-ot-vseh-dverej.jpg', 'rb')
+                    img = open('kljuch-ot-vseh-dverej.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2005\n*Страна* - США, Германия\n*Жанр* - ужасы, триллер, драма, детектив\n*Слоган* - «Fearing Is Believing»\n*Режиссер* - Иэн Софтли\n*Сценарий* - Эрен Крюгер", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1789,7 +1789,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.28':
-                    img = open('static/znamenie.webp', 'rb')
+                    img = open('znamenie.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - США, Великобритания, Австралия\n*Жанр* - фантастика, боевик\n*Слоган* - «Что будет, когда закончатся числа?»\n*Режиссер* - Алекс Пройас\n*Сценарий* - Райн Дуглас Пирсон, Джульетт Сноуден, Стайлз Уайт", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1802,7 +1802,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.29':
-                    img = open('static/vie-gogol.jpg', 'rb')
+                    img = open('vie-gogol.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2018\n*Страна* - Россия\n*Жанр* - детектив, приключения, драма, ужасы, триллер\n*Слоган* - «Не выходи из круга»\n*Режиссер* - Егор Баранов\n*Сценарий* - Алексей Чупов, Наташа Меркулова, Николай Гоголь", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1815,7 +1815,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.30':
-                    img = open('static/prijut.jpg', 'rb')
+                    img = open('prijut.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2007\n*Страна* - Испания, Мексика\n*Жанр* - ужасы, триллер, драма, детектив\n*Слоган* - «Un cuento de amor. Una historia de terror»\n*Режиссер* - Хуан Антонио Байона\n*Сценарий* - Серхио Х. Санчес", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1839,7 +1839,7 @@ def test(bot):
 # Мотивирующее - Одержимость            
             if call.message:
                 if call.data == '4.31':
-                    img = open('static/oderzhimost.jpg', 'rb')
+                    img = open('oderzhimost.jpg', 'rb')
                     bot.send_message(call.message.chat.id,"*Год производства* - 2013\n*Страна* - США \n*Жанр* - драма, музыка\n*Слоган* - «The road to greatness can take you to the edge»\n*Режиссер* - Дэмьен Шазелл\n*Сценарий* - Дэмьен Шазелл", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1851,7 +1851,7 @@ def test(bot):
 # Мотивирующее - Скрытые фигуры
             if call.message:
                 if call.data == '4.32':
-                    img = open('static/skrytye-figury.jpg', 'rb')
+                    img = open('skrytye-figury.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2016\n*Страна* - США \n*Жанр* -  драма, биография, история\n*Слоган* - «У гениальности нет расы. У силы нет пола. У мужества нет границ»\n*Режиссер* - Тед Мелфи\n*Сценарий* - Эллисон Шредер, Тед Мелфи, Марго Ли Шеттерли", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1863,7 +1863,7 @@ def test(bot):
 # Мотивирующее - Каждое воскресенье
             if call.message:
                 if call.data == '4.33':
-                    img = open('static/kazhdoe-voskresene.jpg', 'rb')
+                    img = open('kazhdoe-voskresene.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 1999\n*Страна* - США\n*Жанр* - драма, спорт\n*Слоган* - «Play or be played»\n*Режиссер* - Оливер Стоун\n*Сценарий* - Оливер Стоун, Дэниэл Пайн, Джон Логан", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1876,7 +1876,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.34':
-                    img = open('static/ne-volnujsja-on-daleko-ne-ujdet.jpg', 'rb')
+                    img = open('ne-volnujsja-on-daleko-ne-ujdet.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2018\n*Страна* - Франция, США\n*Жанр* - драма, комедия, биография\n*Слоган* - «Don't just sit there. Do nothing»\n*Режиссер* - Гас Ван Сент\n*Сценарий* - Гас Ван Сент, Джек Гибсон, Уилльям Эндрю Итмэн", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1889,7 +1889,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.35':
-                    img = open('static/v-pogone-za-schastem.jpg', 'rb')
+                    img = open('v-pogone-za-schastem.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2006\n*Страна* - США\n*Жанр* - драма, биография\n*Слоган* - «Никому не позволяй говорить, будто ты чего-то не можешь... У тебя есть мечта - защищай её»\n*Режиссер* - Габриэле Муччино\n*Сценарий* - Стивен Конрад", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1902,7 +1902,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.36':
-                    img = open('static/chelovek-kotoryj-izmenil-vse.jpg', 'rb')
+                    img = open('chelovek-kotoryj-izmenil-vse.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2011\n*Страна* - США\n*Жанр* - биография, спорт, драма\n*Слоган* - «А что в жизни сделал ты?»\n*Режиссер* - Беннетт Миллер\n*Сценарий* - Стивен Зеллиан, Аарон Соркин, Стэн Червин", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1915,7 +1915,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.37':
-                    img = open('static/ja-sjem.jpg', 'rb')
+                    img = open('ja-sjem.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2001\n*Страна* - США\n*Жанр* - драма\n*Слоган* - «Тебе нужна была любовь»\n*Режиссер* - Джесси Нельсон\n*Сценарий* - Кристин Джонсон, Джесси Нельсон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1928,7 +1928,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.38':
-                    img = open('static/127-chasov.jpg', 'rb')
+                    img = open('127-chasov.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2010\n*Страна* - Великобритания, США, Франция\n*Жанр* - триллер, биография, драма, приключения\n*Слоган* - «Важна каждая секунда»\n*Режиссер* - Дэнни Бойл\n*Сценарий* - Дэнни Бойл, Саймон Бофой, Арон Ральстон", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1941,7 +1941,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.39':
-                    img = open('static/serfer-dushi.jpg', 'rb')
+                    img = open('serfer-dushi.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2011\n*Страна* - США\n*Жанр* - драма, спорт, биография, семейный\n*Слоган* - «When you come back from a loss, beat the odds, and never say never, you find a champion»\n*Режиссер* - Шон МакНамара\n*Сценарий* - Шон МакНамара, Дебора Шварц, Дуглас Шварц", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1954,7 +1954,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.40':
-                    img = open('static/spasitelnyj-rassvet.webp', 'rb')
+                    img = open('spasitelnyj-rassvet.webp', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2006\n*Страна* - США, Люксембург\n*Жанр* - биография, военный, драма, триллер\n*Слоган* - «Вырваться из ада!»\n*Режиссер* - Вернер Херцог\n*Сценарий* - Вернер Херцог", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1978,7 +1978,7 @@ def test(bot):
 # Романтичное - 365 дней            
             if call.message:
                 if call.data == '4.41':
-                    img = open('static/365-dnej.webp', 'rb')
+                    img = open('365-dnej.webp', 'rb')
                     bot.send_message(call.message.chat.id,"*Год производства* - 2020\n*Страна* - Польша\n*Жанр* - мелодрама\n*Слоган* - —\n*Режиссер* - Барбара Бяловас, Томаш Мандес\n*Сценарий* - Blanka Lipinska, Tomasz Klimala, Томаш Мандес", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -1990,7 +1990,7 @@ def test(bot):
 # Романтичное - После
             if call.message:
                 if call.data == '4.42':
-                    img = open('static/posle.jpg', 'rb')
+                    img = open('posle.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2019\n*Страна* - США \n*Жанр* - мелодрама\n*Слоган* - «Твоя жизнь не будет прежней»\n*Режиссер* - Дженни Гейдж\n*Сценарий* - Сьюзэн МакМартин, Tamara Chestna, Дженни Гейдж", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2002,7 +2002,7 @@ def test(bot):
 # Романтичное - Секретарша
             if call.message:
                 if call.data == '4.43':
-                    img = open('static/sekretarsha.jpg', 'rb')
+                    img = open('sekretarsha.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2001\n*Страна* - США\n*Жанр* - драма, мелодрама, комедия\n*Слоган* - «Assume the position»\n*Режиссер* - Стивен Шейнберг\n*Сценарий* - Эрин Крессида Уилсон, Мэри Гейтскилл, Стивен Шейнберг", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2015,7 +2015,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.44':
-                    img = open('static/budka-poceluev.jpg', 'rb')
+                    img = open('budka-poceluev.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2018\n*Страна* - США, Великобритания\n*Жанр* - мелодрама, комедия\n*Слоган* - «She can tell her best friend anything. Except this one thing»\n*Режиссер* - Винс Марчелло\n*Сценарий* - Винс Марчелло, Бет Риклз", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2028,7 +2028,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.45':
-                    img = open('static/predlozhenie.jpg', 'rb')
+                    img = open('predlozhenie.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2009\n*Страна* - США\n*Жанр* - мелодрама, комедия, драма\n*Слоган* - «Горько?.»\n*Режиссер* - Энн Флетчер\n*Сценарий* - Пит Чиарелли", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2041,7 +2041,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.46':
-                    img = open('static/zvezda-rodilas.jpg', 'rb')
+                    img = open('zvezda-rodilas.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2018\n*Страна* - США\n*Жанр* - мелодрама, музыка, драма\n*Слоган* - —\n*Режиссер* - Брэдли Купер\n*Сценарий* - Эрик Рот, Брэдли Купер, Уилл Феттерс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2054,7 +2054,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.47':
-                    img = open('static/teplo-nashih-tel.jpg', 'rb')
+                    img = open('teplo-nashih-tel.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2013\n*Страна* - США, Канада\n*Жанр* - ужасы, мелодрама, комедия\n*Слоган* - «Он всё ещё мёртв, но сердце снова бьётся»\n*Режиссер* - Джонатан Левин\n*Сценарий* - Джонатан Левин, Айзек Марион", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2067,7 +2067,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.48':
-                    img = open('static/pjatdesjat-ottenkov-serogo.jpg', 'rb')
+                    img = open('pjatdesjat-ottenkov-serogo.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - США\n*Жанр* - мелодрама\n*Слоган* - «Мистер Грей ждет вас»\n*Режиссер* - Сэм Тейлор-Джонсон\n*Сценарий* - Келли Марсел, Э.Л. Джеймс", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2080,7 +2080,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.49':
-                    img = open('static/zolushka.jpg', 'rb')
+                    img = open('zolushka.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - США, Великобритания\n*Жанр* - фэнтези, драма, мелодрама, приключения, семейный\n*Слоган* - «Midnight is just the beginning»\n*Режиссер* - Кеннет Брана\n*Сценарий* - Крис Вайц, Шарль Перро", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
@@ -2093,7 +2093,7 @@ def test(bot):
 
             if call.message:
                 if call.data == '4.50':
-                    img = open('static/on-drakon.jpg', 'rb')
+                    img = open('on-drakon.jpg', 'rb')
                     bot.send_message(call.message.chat.id, "*Год производства* - 2015\n*Страна* - Россия\n*Жанр* - фэнтези\n*Слоган* - «Любить страшно»\n*Режиссер* - Индар Джендубаев\n*Сценарий* - Марина Дяченко, Сергей Дяченко, Индар Джендубаев", parse_mode="Markdown")
                     bot.send_photo(call.message.chat.id, img)
                     markup = types.InlineKeyboardMarkup(row_width=1)
