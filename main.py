@@ -446,14 +446,14 @@ def genre(message):
                 # photo = movie[9]
                 description = movie[10]
                 link = movie[11]
-            # img = open(photo, 'rb')
-            bot.send_message(message.chat.id, f"И фильмом дня становится... *{name}* !!!!!", parse_mode="Markdown") 
-            bot.send_message(message.chat.id, f"*Год производства* - {year}\n*Страна* - {country}\n*Жанр* - {genre}\n*Слоган* - {slogan}\n*Режиссер* - {director}\n*Сценарий* - {skript}\n", parse_mode="Markdown")
-            # bot.send_photo(message.chat.id, img)
-            markup = types.InlineKeyboardMarkup(row_width=1)
-            item1 = types.InlineKeyboardButton("Перейти к просмотру фильма", link)
-            markup.add(item1)
-            bot.send_message(message.chat.id, f"*Описание*\n        {description}", reply_markup=markup, parse_mode="Markdown")
+                # img = open(photo, 'rb')
+                bot.send_message(message.chat.id, f"И фильмом дня становится... *{name}* !!!!!", parse_mode="Markdown") 
+                bot.send_message(message.chat.id, f"*Год производства* - {year}\n*Страна* - {country}\n*Жанр* - {genre}\n*Слоган* - {slogan}\n*Режиссер* - {director}\n*Сценарий* - {skript}\n", parse_mode="Markdown")
+                # bot.send_photo(message.chat.id, img)
+                markup = types.InlineKeyboardMarkup(row_width=1)
+                item1 = types.InlineKeyboardButton("Перейти к просмотру фильма", link)
+                markup.add(item1)
+                bot.send_message(message.chat.id, f"*Описание*\n        {description}", reply_markup=markup, parse_mode="Markdown")
 
 
 
