@@ -431,8 +431,8 @@ def genre(message):
     if message.text == '📆Фильм дня':
         postgreSQL_select_query= "SELECT * FROM movie_day"
         cursor.execute(postgreSQL_select_query)
-        movie_day = cursor.fetchall()
-        for movie in movie_day:
+        movie_day_records = cursor.fetchall()
+        for movie in movie_day_records:
             today_date = datetime.date.today() # datetime.date(2017, 4, 5)
             if movie[1]==today_date:
                 print(movie[2])
