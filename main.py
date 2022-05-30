@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-import mysql.connector
+import psycopg2
 import test
 import datetime
 
@@ -8,13 +8,27 @@ TOKEN = '5295641600:AAHs_xz0K2rg2m1CJGaB2IxxzSzcBk4-bak' # bot token from @BotFa
 
 bot = telebot.TeleBot(TOKEN)
 
-db = mysql.connector.connect(
-    user="root",
-    password="",
-    database="d7qt6q789nm9qq"
+host = "ec2-52-48-159-67.eu-west-1.compute.amazonaws.com"
+user = "joftymmknydozl"
+password = "96cfa1884db623762df84d99a74ca419d82e97a750b627780a7bd85404a2ea74"
+db_name = "dkhv3tchcev28"
+
+connection = psycopg2.connect(
+    host=host,
+    user=user,
+    password=password,
+    database=db_name
+
 )
 
-cursor = db.cursor()
+
+# db = mysql.connector.connect(
+#     user="root",
+#     password="",
+#     database="d7qt6q789nm9qq"
+# )
+
+cursor = connection.cursor()
 
 
 
@@ -415,9 +429,10 @@ def genre(message):
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     if message.text == '📆Фильм дня':
-        cursor.execute("SELECT * FROM Movie_day")
-        Movie_day = cursor.fetchall()
-        for movie in Movie_day:
+        postgreSQL_select_query= "SELECT * FROM movie_day"
+        cursor.execute(postgreSQL_select_query)
+        movie_day = cursor.fetchall()
+        for movie in movie_day:
             today_date = datetime.date.today() # datetime.date(2017, 4, 5)
             if movie[1]==today_date:
                 print(movie[2])
