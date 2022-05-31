@@ -443,10 +443,10 @@ def genre(message):
                 slogan = movie[6]
                 director = movie[7]
                 skript = movie[8]
-                # photo = movie[9]
+                photo = movie[9]
                 description = movie[10]
                 link = movie[11]
-                # img = open(photo, 'rb')
+                img = open(photo, 'rb')
                 bot.send_message(message.chat.id, f"И фильмом дня становится... *{name}* !!!!!", parse_mode="Markdown") 
                 bot.send_message(message.chat.id, f"*Год производства* - {year}\n*Страна* - {country}\n*Жанр* - {genre}\n*Слоган* - {slogan}\n*Режиссер* - {director}\n*Сценарий* - {skript}\n", parse_mode="Markdown")
                 # bot.send_photo(message.chat.id, img)
