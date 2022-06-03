@@ -8,10 +8,10 @@ TOKEN = '5295641600:AAHs_xz0K2rg2m1CJGaB2IxxzSzcBk4-bak' # bot token from @BotFa
 
 bot = telebot.TeleBot(TOKEN)
 
-host = "ec2-52-48-159-67.eu-west-1.compute.amazonaws.com"
-user = "joftymmknydozl"
-password = "96cfa1884db623762df84d99a74ca419d82e97a750b627780a7bd85404a2ea74"
-db_name = "dkhv3tchcev28"
+host = "ec2-54-228-32-29.eu-west-1.compute.amazonaws.com"
+user = "ugyvtxwjmnrsjh"
+password = "d3fde2bc0f78bb4963117173e7ef33b20a083d19f66bb756509f36c082226c4c"
+db_name = "d3rr68mgg12pak"
 
 connection = psycopg2.connect(
     host=host,
@@ -25,7 +25,7 @@ connection = psycopg2.connect(
 # db = mysql.connector.connect(
 #     user="root",
 #     password="",
-#     database="d7qt6q789nm9qq"
+#     database="d3rr68mgg12pak"
 # )
 
 cursor = connection.cursor()
